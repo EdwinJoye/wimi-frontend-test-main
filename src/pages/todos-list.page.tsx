@@ -2,6 +2,7 @@ import {
   Flex,
   Grid,
   Group,
+  ScrollArea,
   SegmentedControl,
   Select,
   Stack,
@@ -181,20 +182,22 @@ const TodosListPage = () => {
             error={error}
           />
         ) : (
-          <Grid gutter="md">
-            {filteredAndSortedTodos.map((todo, index) => (
-              <Grid.Col key={todo.id} span={{ base: 12, md: 6, lg: 4 }}>
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-30px" }}
-                  transition={{ duration: 0.3, delay: index * 0.05 }}
-                >
-                  <TodoCard todo={todo} />
-                </motion.div>
-              </Grid.Col>
-            ))}
-          </Grid>
+          <ScrollArea h="calc(100vh - 240px)">
+            <Grid gutter="md">
+              {filteredAndSortedTodos.map((todo, index) => (
+                <Grid.Col key={todo.id} span={{ base: 12, md: 6, lg: 4 }}>
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-30px" }}
+                    transition={{ duration: 0.3, delay: index * 0.05 }}
+                  >
+                    <TodoCard todo={todo} />
+                  </motion.div>
+                </Grid.Col>
+              ))}
+            </Grid>
+          </ScrollArea>
         )}
       </motion.div>
     </PageLayout>

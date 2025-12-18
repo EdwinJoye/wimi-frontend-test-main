@@ -79,7 +79,11 @@ const UserPage = () => {
                   </Group>
 
                   <Stack align="center" gap="md">
-                    <Avatar src={currentUser.avatar} size={150} radius="xl" />
+                    <Avatar
+                      src={currentUser.avatar}
+                      size={150}
+                      className="rounded-full"
+                    />
                     <Stack gap="xs" align="center" w="100%">
                       <Title order={2} size="h3">
                         {currentUser.firstName} {currentUser.lastName}

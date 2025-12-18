@@ -60,6 +60,12 @@ export default function TodosTable({
     toggleCompleted({ todoId, completed: !currentCompleted });
   };
 
+  const handleSeeDetails = (todoId: number) => {
+    navigate(
+      `/user/${currentUser?.id}/todo-lists/${todoListId}/todos/${todoId}`
+    );
+  };
+
   return (
     <Paper>
       <Stack className="h-fit overflow-hidden">
@@ -147,6 +153,7 @@ export default function TodosTable({
                               variant="subtle"
                               color="green"
                               aria-label="Voir"
+                              onClick={() => handleSeeDetails(todo.id)}
                             >
                               <IoEye size={16} />
                             </ActionIcon>
