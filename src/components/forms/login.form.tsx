@@ -42,13 +42,13 @@ const LoginForm = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <TextInput
           label={t("labels.email")}
-          placeholder="votre@email.com"
+          placeholder={t("labels.your_email")}
           {...register("email")}
           error={errors.email?.message}
         />
         <PasswordInput
           label={t("labels.password")}
-          placeholder="Votre mot de passe"
+          placeholder={t("labels.your_password")}
           mt="md"
           {...register("password")}
           error={errors.password?.message}

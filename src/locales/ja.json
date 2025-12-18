@@ -46,7 +46,9 @@
     "table": "テーブル",
     "title": "タイトル",
     "todo_lists": "タスクリスト",
-    "todos": "タスク"
+    "todos": "タスク",
+    "your_email": "あなたのメールアドレ.ja",
+    "your_password": "パスワード"
   },
   "messages": {
     "confirm_delete_item": "この項目を削除してもよろしいですか？",
@@ -127,7 +129,7 @@
     "hello": "こんにちは",
     "history": "このアプリケーションはReact、TypeScript、Mantine UIで開発しました。認証、フィルター、検索、アニメーション、ライト/ダークモードを備えた完全なタスク管理機能が含まれています。",
     "hope": "お気に召すと幸いです！",
-    "welcome": "への技術テストへようこそ"
+    "welcome": "技術テストへようこそ"
   },
   "titles": {
     "confirm_delete": "削除の確認",

@@ -46,7 +46,9 @@
     "table": "Table",
     "title": "Titre",
     "todo_lists": "Listes de tâches",
-    "todos": "Tâche"
+    "todos": "Tâche",
+    "your_email": "votre@email.com",
+    "your_password": "Votre mot de passe"
   },
   "messages": {
     "confirm_delete_item": "Êtes-vous sûr de vouloir supprimer cet élément ?",

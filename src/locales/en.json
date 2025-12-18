@@ -46,7 +46,9 @@
     "table": "Table",
     "title": "Title",
     "todo_lists": "Todo lists",
-    "todos": "Tasks"
+    "todos": "Task",
+    "your_email": "your@email.com",
+    "your_password": "Your password"
   },
   "messages": {
     "confirm_delete_item": "Are you sure you want to delete this item?",
@@ -61,7 +63,7 @@
       "active_sessions_description": "Manage your login sessions",
       "danger_zone": "Danger zone",
       "delete_account": "Delete account",
-      "delete_account_description": "Permanently delete your account and all data",
+      "delete_account_description": "Permanently delete your account and all your data",
       "email": "Email address",
       "password": "Password",
       "password_modified": "Last modified 3 months ago",
