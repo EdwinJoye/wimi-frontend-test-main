@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "cancel": "Cancel",
+    "change": "Change",
+    "confirm": "Confirm",
+    "confirm_delete": "Are you sure you want to delete this task?",
+    "create": "Create",
+    "create_list": "Create a list",
+    "create_todo": "Create a task",
+    "delete": "Delete",
+    "edit": "Edit",
+    "edit_profile": "Edit profile",
+    "logout": "Log out",
+    "save": "Save",
+    "save_changes": "Save changes",
+    "sort_by": "Sort by",
+    "view_all": "View all",
+    "view_details": "View details"
+  },
+  "errors": {
+    "error_loading_lists": "Error loading lists"
+  },
+  "labels": {
+    "account": "Account",
+    "actions": "Actions",
+    "all": "All",
+    "appearance": "Appearance",
+    "cards": "Cards",
+    "completed": "Completed",
+    "create_at": "Created at",
+    "description": "Description",
+    "due_date": "Due date",
+    "general": "General",
+    "home": "Home",
+    "languages": "Languages",
+    "limited_date": "Deadline",
+    "login": "Log in",
+    "no_todo": "No tasks",
+    "off_the_list": "off the list",
+    "pending": "Pending",
+    "priority": "Priority",
+    "profile": "Profile",
+    "settings": "Settings",
+    "status": "Status",
+    "table": "Table",
+    "title": "Title",
+    "todo_lists": "Todo lists",
+    "todos": "Tasks"
+  },
+  "messages": {
+    "confirm_delete_item": "Are you sure you want to delete this item?",
+    "manage_your_account": "Manage your account settings and preferences"
+  },
+  "placeholders": {
+    "search_tasks": "Search tasks"
+  },
+  "settings": {
+    "account": {
+      "active_sessions": "Active sessions",
+      "active_sessions_description": "Manage your login sessions",
+      "danger_zone": "Danger zone",
+      "delete_account": "Delete account",
+      "delete_account_description": "Permanently delete your account and all data",
+      "email": "Email address",
+      "password": "Password",
+      "password_modified": "Last modified 3 months ago",
+      "title": "Account information"
+    },
+    "appearance": {
+      "color_scheme": "Color scheme",
+      "color_scheme_description": "Choose the interface color scheme",
+      "colors": {
+        "blue": "Blue",
+        "green": "Green",
+        "orange": "Orange",
+        "purple": "Purple"
+      },
+      "dark_mode": "Dark mode",
+      "dark_mode_description": "Use the dark theme for the interface",
+      "font_size": "Font size",
+      "font_size_description": "Adjust the text size",
+      "font_sizes": {
+        "large": "Large",
+        "medium": "Medium",
+        "small": "Small"
+      },
+      "screen_reader": "Screen reader mode",
+      "screen_reader_description": "Optimize the interface for screen readers",
+      "title": "Theme and appearance"
+    },
+    "general": {
+      "auto_start": "Auto-start",
+      "auto_start_description": "Launch the application at system startup",
+      "full_names": "Display full names",
+      "full_names_description": "Show full names in lists",
+      "reduce_motion": "Reduce motion",
+      "reduce_motion_description": "Reduce animations in the interface",
+      "title": "General settings"
+    },
+    "language": {
+      "current_language": "Current language",
+      "date_example": "Date example",
+      "date_format_description": "Date display format",
+      "date_formats": {
+        "ddmmyyyy": "DD/MM/YYYY",
+        "mmddyyyy": "MM/DD/YYYY",
+        "yyyymmdd": "YYYY-MM-DD"
+      },
+      "dateFormat": "Date format",
+      "interface": "Interface language",
+      "interface_description": "Choose the display language",
+      "preview": "Preview",
+      "select_format": "Select...",
+      "select_language": "Select...",
+      "select_timezone": "Select...",
+      "show_clock": "Show clock",
+      "show_clock_description": "Enable this option to display the current time in the menu",
+      "time_example": "Local time",
+      "timezone": "Timezone",
+      "timezone_description": "Your local timezone",
+      "title": "Language and region"
+    }
+  },
+  "texts": {
+    "enjoy_visit": "Enjoy your visit",
+    "hello": "Hello",
+    "history": "I developed this application with React, TypeScript, and Mantine UI. It includes full todo management with authentication, filters, search, animations, and light/dark mode.",
+    "hope": "Hope you like it!",
+    "welcome": "Welcome to my technical test for"
+  },
+  "titles": {
+    "confirm_delete": "Confirm deletion",
+    "create_todo": "Create a task",
+    "edit_todo": "Edit task",
+    "my_todo_lists": "My todo lists",
+    "parameters": "Settings",
+    "task_list": "Task list",
+    "tasks_list": "Tasks list",
+    "welcome_to_wimi": "Welcome to Wimi"
+  }
+}

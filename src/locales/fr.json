@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "cancel": "Annuler",
+    "change": "Changer",
+    "confirm": "Confirmer",
+    "confirm_delete": "Êtes-vous sûr de vouloir supprimer cette tâche ?",
+    "create": "Créer",
+    "create_list": "Créer une liste",
+    "create_todo": "Créer une tâche",
+    "delete": "Supprimer",
+    "edit": "Éditer",
+    "edit_profile": "Modifier le profil",
+    "logout": "Se déconnecter",
+    "save": "Enregistrer",
+    "save_changes": "Enregistrer les modifications",
+    "sort_by": "Trier par",
+    "view_all": "Tout voir",
+    "view_details": "Voir les détails"
+  },
+  "errors": {
+    "error_loading_lists": "Erreur lors du chargement des listes"
+  },
+  "labels": {
+    "account": "Compte",
+    "actions": "Actions",
+    "all": "Tous",
+    "appearance": "Apparence",
+    "cards": "Cartes",
+    "completed": "Complété",
+    "create_at": "Créé le",
+    "description": "Description",
+    "due_date": "Date échéance",
+    "general": "Général",
+    "home": "Accueil",
+    "languages": "Langues",
+    "limited_date": "Date limite",
+    "login": "Se connecter",
+    "no_todo": "Aucune tâche",
+    "off_the_list": "de la liste",
+    "pending": "En attente",
+    "priority": "Priorité",
+    "profile": "Profile",
+    "settings": "Paramètres",
+    "status": "Statut",
+    "table": "Table",
+    "title": "Titre",
+    "todo_lists": "Listes de tâches",
+    "todos": "Tâche"
+  },
+  "messages": {
+    "confirm_delete_item": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+    "manage_your_account": "Gérez les paramètres et préférences de votre compte"
+  },
+  "placeholders": {
+    "search_tasks": "Recherche de tâche"
+  },
+  "settings": {
+    "account": {
+      "active_sessions": "Sessions actives",
+      "active_sessions_description": "Gérer vos sessions de connexion",
+      "danger_zone": "Zone de danger",
+      "delete_account": "Supprimer le compte",
+      "delete_account_description": "Supprimer définitivement votre compte et toutes vos données",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "password_modified": "Dernière modification il y a 3 mois",
+      "title": "Informations du compte"
+    },
+    "appearance": {
+      "color_scheme": "Schéma de couleurs",
+      "color_scheme_description": "Choisir le schéma de couleurs de l'interface",
+      "colors": {
+        "blue": "Bleu",
+        "green": "Vert",
+        "orange": "Orange",
+        "purple": "Violet"
+      },
+      "dark_mode": "Mode sombre",
+      "dark_mode_description": "Utiliser le thème sombre pour l'interface",
+      "font_size": "Taille de police",
+      "font_size_description": "Ajuster la taille du texte",
+      "font_sizes": {
+        "large": "Grand",
+        "medium": "Moyen",
+        "small": "Petit"
+      },
+      "screen_reader": "Mode lecteur d'écran",
+      "screen_reader_description": "Optimiser l'interface pour les lecteurs d'écran",
+      "title": "Thème et apparence"
+    },
+    "general": {
+      "auto_start": "Démarrage automatique",
+      "auto_start_description": "Lancer l'application au démarrage du système",
+      "full_names": "Affichage des noms complets",
+      "full_names_description": "Afficher les noms complets dans les listes",
+      "reduce_motion": "Réduction des mouvements",
+      "reduce_motion_description": "Réduire les animations dans l'interface",
+      "title": "Paramètres généraux"
+    },
+    "language": {
+      "current_language": "Langue actuelle",
+      "date_example": "Exemple de date",
+      "date_format_description": "Format d'affichage des dates",
+      "date_formats": {
+        "ddmmyyyy": "JJ/MM/AAAA",
+        "mmddyyyy": "MM/JJ/AAAA",
+        "yyyymmdd": "AAAA-MM-JJ"
+      },
+      "dateFormat": "Format de date",
+      "interface": "Langue de l'interface",
+      "interface_description": "Choisir la langue d'affichage",
+      "preview": "Aperçu",
+      "select_format": "Sélectionner...",
+      "select_language": "Sélectionner...",
+      "select_timezone": "Sélectionner...",
+      "show_clock": "Afficher l'heure",
+      "show_clock_description": "Activer cette option pour afficher l'heure actuelle dans le menu",
+      "time_example": "Heure locale",
+      "timezone": "Fuseau horaire",
+      "timezone_description": "Votre fuseau horaire local",
+      "title": "Langue et région"
+    }
+  },
+  "texts": {
+    "enjoy_visit": "Bonne visite",
+    "hello": "Bonjour",
+    "history": "J'ai développé cette application avec React, TypeScript, et Mantine UI. Elle inclut la gestion complète de todos avec authentification, filtres, recherche, animations et light/dark mode.",
+    "hope": "En espérant qu'elle vous plaise !",
+    "welcome": " Bienvenue dans mon test technique pour"
+  },
+  "titles": {
+    "confirm_delete": "Confimation de suppression",
+    "create_todo": "Créer une tâche",
+    "edit_todo": "Éditer une tâche",
+    "my_todo_lists": "Mes listes de tâches",
+    "parameters": "Paramètres",
+    "task_list": "Liste des tâches",
+    "tasks_list": "Liste des tâches",
+    "welcome_to_wimi": "Bienvenue chez Wimi"
+  }
+}

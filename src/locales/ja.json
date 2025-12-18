@@ -1,0 +1,141 @@
+{
+  "actions": {
+    "cancel": "キャンセル",
+    "change": "変更",
+    "confirm": "確認",
+    "confirm_delete": "このタスクを削除してもよろしいですか？",
+    "create": "作成",
+    "create_list": "リストを作成",
+    "create_todo": "タスクを作成",
+    "delete": "削除",
+    "edit": "編集",
+    "edit_profile": "プロフィールを編集",
+    "logout": "ログアウト",
+    "save": "保存",
+    "save_changes": "変更を保存",
+    "sort_by": "並び替え",
+    "view_all": "すべて表示",
+    "view_details": "詳細を表示"
+  },
+  "errors": {
+    "error_loading_lists": "リストの読み込み中にエラーが発生しました"
+  },
+  "labels": {
+    "account": "アカウント",
+    "actions": "アクション",
+    "all": "すべて",
+    "appearance": "外観",
+    "cards": "カード",
+    "completed": "完了",
+    "create_at": "作成日",
+    "description": "説明",
+    "due_date": "期限日",
+    "general": "一般",
+    "home": "ホーム",
+    "languages": "言語",
+    "limited_date": "期限日",
+    "login": "ログイン",
+    "no_todo": "タスクなし",
+    "off_the_list": "リストから",
+    "pending": "保留中",
+    "priority": "優先度",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "status": "ステータス",
+    "table": "テーブル",
+    "title": "タイトル",
+    "todo_lists": "タスクリスト",
+    "todos": "タスク"
+  },
+  "messages": {
+    "confirm_delete_item": "この項目を削除してもよろしいですか？",
+    "manage_your_account": "アカウントの設定と環境設定を管理します"
+  },
+  "placeholders": {
+    "search_tasks": "タスクを検索"
+  },
+  "settings": {
+    "account": {
+      "active_sessions": "アクティブセッション",
+      "active_sessions_description": "ログインセッションを管理します",
+      "danger_zone": "危険ゾーン",
+      "delete_account": "アカウントを削除",
+      "delete_account_description": "アカウントとすべてのデータを完全に削除します",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "password_modified": "最終更新：3か月前",
+      "title": "アカウント情報"
+    },
+    "appearance": {
+      "color_scheme": "カラースキーム",
+      "color_scheme_description": "インターフェースのカラースキームを選択します",
+      "colors": {
+        "blue": "青",
+        "green": "緑",
+        "orange": "オレンジ",
+        "purple": "紫"
+      },
+      "dark_mode": "ダークモード",
+      "dark_mode_description": "インターフェースにダークテーマを使用します",
+      "font_size": "フォントサイズ",
+      "font_size_description": "テキストのサイズを調整します",
+      "font_sizes": {
+        "large": "大",
+        "medium": "中",
+        "small": "小"
+      },
+      "screen_reader": "スクリーンリーダーモード",
+      "screen_reader_description": "スクリーンリーダー用にインターフェースを最適化します",
+      "title": "テーマと外観"
+    },
+    "general": {
+      "auto_start": "自動起動",
+      "auto_start_description": "システム起動時にアプリケーションを起動します",
+      "full_names": "フルネーム表示",
+      "full_names_description": "リストにフルネームを表示します",
+      "reduce_motion": "モーションを減らす",
+      "reduce_motion_description": "インターフェースのアニメーションを減らします",
+      "title": "一般設定"
+    },
+    "language": {
+      "current_language": "現在の言語",
+      "date_example": "日付の例",
+      "date_format_description": "日付の表示形式",
+      "date_formats": {
+        "ddmmyyyy": "日/月/年",
+        "mmddyyyy": "月/日/年",
+        "yyyymmdd": "年-月-日"
+      },
+      "dateFormat": "日付形式",
+      "interface": "インターフェース言語",
+      "interface_description": "表示言語を選択します",
+      "preview": "プレビュー",
+      "select_format": "選択...",
+      "select_language": "選択...",
+      "select_timezone": "選択...",
+      "show_clock": "時計を表示",
+      "show_clock_description": "メニューに現在時刻を表示します",
+      "time_example": "現地時間",
+      "timezone": "タイムゾーン",
+      "timezone_description": "現地のタイムゾーン",
+      "title": "言語と地域"
+    }
+  },
+  "texts": {
+    "enjoy_visit": "ご訪問ありがとうございます",
+    "hello": "こんにちは",
+    "history": "このアプリケーションはReact、TypeScript、Mantine UIで開発しました。認証、フィルター、検索、アニメーション、ダークモードを備えた完全なタスク管理機能が含まれています。",
+    "hope": "お気に召すと幸いです！",
+    "welcome": "への技術テストへようこそ"
+  },
+  "titles": {
+    "confirm_delete": "削除の確認",
+    "create_todo": "タスクを作成",
+    "edit_todo": "タスクを編集",
+    "my_todo_lists": "私のタスクリスト",
+    "parameters": "設定",
+    "task_list": "タスクリスト",
+    "tasks_list": "タスクリスト",
+    "welcome_to_wimi": "Wimiへようこそ"
+  }
+}

@@ -1,0 +1,47 @@
+.screen-reader-mode button {
+  background-color: #ffeb3b !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  font-weight: 700 !important;
+}
+
+.screen-reader-mode button:hover {
+  background-color: #fdd835 !important;
+}
+
+.screen-reader-mode input,
+.screen-reader-mode select,
+.screen-reader-mode textarea {
+  background-color: #ffeb3b !important;
+  color: #000000 !important;
+  border: 3px solid #000000 !important;
+  font-weight: 600 !important;
+}
+
+.screen-reader-mode h1,
+.screen-reader-mode h2,
+.screen-reader-mode h3,
+.screen-reader-mode strong {
+  color: #d32f2f !important;
+  font-weight: 700 !important;
+  border: 3px solid #000000 !important;
+  padding: 0.25rem 0.5rem !important;
+  display: inline-block !important;
+  background-color: #ffeb3b !important;
+}
+
+.screen-reader-mode label {
+  color: #000000 !important;
+  font-weight: 700 !important;
+  border: 3px solid #000000 !important;
+  padding: 0.25rem 0.5rem !important;
+  display: inline-block !important;
+  background-color: #ffeb3b !important;
+}
+
+.screen-reader-mode p,
+.screen-reader-mode span,
+.screen-reader-mode div {
+  color: #000000 !important;
+  font-weight: 600 !important;
+}
