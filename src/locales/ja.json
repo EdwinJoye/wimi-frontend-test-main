@@ -57,32 +57,32 @@
   "notifs": {
     "errors": {
       "messages": {
-        "connexion": "ログインに失敗しました",
-        "todo_creation": "タスクが正常に作成されました",
-        "todo_deletion": "タスクが正常に削除されました",
-        "todo_edition": "タスクが正常に編集されました"
-      },
-      "titles": {
-        "connexion": "ログイン成功",
-        "todo_creation": "タスク作成完了",
-        "todo_deletion": "タスク削除完了",
-        "todo_edition": "タスク編集完了"
-      }
-    },
-    "success": {
-      "messages": {
         "connexion": "ログインできませんでした",
-        "deconnexion": "またのご利用をお待ちしております！",
         "todo_creation": "タスクを作成できませんでした",
         "todo_deletion": "タスクを削除できませんでした",
         "todo_edition": "タスクを編集できませんでした"
       },
       "titles": {
         "connexion": "ログインエラー",
-        "deconnexion": "ログアウト成功",
         "todo_creation": "タスク未作成",
         "todo_deletion": "タスク未削除",
         "todo_edition": "タスク未編集"
+      }
+    },
+    "success": {
+      "messages": {
+        "connexion": "ようこそ",
+        "deconnexion": "またのご利用をお待ちしております！",
+        "todo_creation": "タスクが正常に作成されました",
+        "todo_deletion": "タスクが正常に削除されました",
+        "todo_edition": "タスクが正常に編集されました"
+      },
+      "titles": {
+        "connexion": "ログイン成功",
+        "deconnexion": "ログアウト成功",
+        "todo_creation": "タスク作成完了",
+        "todo_deletion": "タスク削除完了",
+        "todo_edition": "タスク編集完了"
       }
     }
   },
@@ -167,6 +167,7 @@
     "confirm_delete": "削除の確認",
     "create_todo": "タスクを作成",
     "edit_todo": "タスクを編集",
+    "log_in": "ログイン",
     "my_todo_lists": "私のタスクリスト",
     "parameters": "設定",
     "task_list": "タスクリスト",

@@ -30,7 +30,7 @@
     "create_at": "Créé le",
     "description": "Description",
     "due_date": "Date échéance",
-    "email": "Emai",
+    "email": "Email",
     "general": "Général",
     "home": "Accueil",
     "languages": "Langues",
@@ -57,32 +57,32 @@
   "notifs": {
     "errors": {
       "messages": {
-        "connexion": "Bienvenue",
-        "todo_creation": "La tâche a été créée avec succès",
-        "todo_deletion": "La tâche a été supprimée avec succès",
-        "todo_edition": "La tâche a été modifiée avec succès"
-      },
-      "titles": {
-        "connexion": "Connexion réussie",
-        "todo_creation": "Tâche créée",
-        "todo_deletion": "Tâche supprimée",
-        "todo_edition": "Tâche modifiée"
-      }
-    },
-    "success": {
-      "messages": {
         "connexion": "Impossible de se connecter",
-        "deconnexion": "À bientôt !",
         "todo_creation": "Impossible de créer la tâche",
         "todo_deletion": "Impossible de supprimer la tâche",
         "todo_edition": "Impossible de modifier la tâche"
       },
       "titles": {
         "connexion": "Problème de connexion",
-        "deconnexion": "Déconnexion réussie",
         "todo_creation": "Tâche non créee",
         "todo_deletion": "Tâche non supprimée",
         "todo_edition": "Tâche non modifiée"
+      }
+    },
+    "success": {
+      "messages": {
+        "connexion": "Bienvenue",
+        "deconnexion": "À bientôt !",
+        "todo_creation": "La tâche a été créée avec succès",
+        "todo_deletion": "La tâche a été supprimée avec succès",
+        "todo_edition": "La tâche a été modifiée avec succès"
+      },
+      "titles": {
+        "connexion": "Connexion réussie",
+        "deconnexion": "Déconnexion réussie",
+        "todo_creation": "Tâche créée",
+        "todo_deletion": "Tâche supprimée",
+        "todo_edition": "Tâche modifiée"
       }
     }
   },
@@ -167,6 +167,7 @@
     "confirm_delete": "Confimation de suppression",
     "create_todo": "Créer une tâche",
     "edit_todo": "Éditer une tâche",
+    "log_in": "Se connecter",
     "my_todo_lists": "Mes listes de tâches",
     "parameters": "Paramètres",
     "task_list": "Liste des tâches",
