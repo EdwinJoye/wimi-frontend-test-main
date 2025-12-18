@@ -13,6 +13,7 @@ import {
   IoCalendar,
   IoEllipsisVertical,
   IoEye,
+  IoPencil,
   IoTrash,
 } from "react-icons/io5";
 import { useNavigate, useParams } from "react-router-dom";
@@ -46,6 +47,12 @@ const TodoCard = ({ todo }: TodoCardProps) => {
   const handleViewDetails = () => {
     navigate(
       `/user/${currentUser?.id}/todo-lists/${todoListId}/todos/${todo.id}`
+    );
+  };
+
+  const handleEdit = () => {
+    navigate(
+      `/user/${currentUser?.id}/todo-lists/${todoListId}/todos/${todo.id}/edit`
     );
   };
 
@@ -111,6 +118,13 @@ const TodoCard = ({ todo }: TodoCardProps) => {
                 <Menu.Item
                   leftSection={<IoEye size={16} />}
                   onClick={handleViewDetails}
+                >
+                  {t("actions.view_details")}
+                </Menu.Item>
+                <Menu.Item
+                  color="blue"
+                  leftSection={<IoPencil size={16} />}
+                  onClick={handleEdit}
                 >
                   {t("actions.view_details")}
                 </Menu.Item>

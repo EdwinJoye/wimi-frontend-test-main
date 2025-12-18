@@ -21,8 +21,8 @@ export const useLogin = () => {
       setCurrentUser(data);
 
       showNotification({
-        title: "Connexion réussie",
-        message: `Bienvenue ${data.firstName} !`,
+        titleKey: "notifs.success.titles.connexion",
+        messageKey: "notifs.success.messages.connexion",
         color: "green",
       });
 
@@ -33,8 +33,8 @@ export const useLogin = () => {
       setCurrentUser(null);
 
       showNotification({
-        title: "Erreur de connexion",
-        message: error.message || "Impossible de se connecter.",
+        titleKey: "notifs.errors.titles.connexion",
+        messageKey: error.message || "notifs.errors.messages.connexion",
         color: "red",
       });
     },
@@ -56,8 +56,8 @@ export const useLogout = () => {
       setCurrentUser(null);
 
       showNotification({
-        title: "Déconnexion réussie",
-        message: "À bientôt !",
+        titleKey: "notifs.success.titles.deconnexion",
+        messageKey: "notifs.success.messages.deconnexion",
         color: "blue",
       });
     },

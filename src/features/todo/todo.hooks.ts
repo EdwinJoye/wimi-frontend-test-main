@@ -34,15 +34,15 @@ export const useCreateTodo = () => {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["todos"] });
       showNotification({
-        title: "Tâche créée",
-        message: "La tâche a été créée avec succès",
+        titleKey: "notifs.success.titles.todo_creation",
+        messageKey: "notifs.success.messages.todo_creation",
         color: "green",
       });
     },
     onError: () => {
       showNotification({
-        title: "Erreur",
-        message: "Impossible de créer la tâche",
+        titleKey: "notifs.errors.titles.todo_creation",
+        messageKey: "notifs.errors.messages.todo_creation",
         color: "red",
       });
     },
@@ -66,15 +66,15 @@ export const useUpdateTodo = () => {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["todos"] });
       showNotification({
-        title: "Tâche modifiée",
-        message: "La tâche a été modifiée avec succès",
+        titleKey: "notifs.errors.titles.todo_edition",
+        messageKey: "notifs.errors.messages.todo_edition",
         color: "green",
       });
     },
     onError: () => {
       showNotification({
-        title: "Erreur",
-        message: "Impossible de modifier la tâche",
+        titleKey: "notifs.errors.titles.todo_edition",
+        messageKey: "notifs.errors.messages.todo_edition",
         color: "red",
       });
     },
@@ -89,15 +89,15 @@ export const useDeleteTodo = () => {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["todos"] });
       showNotification({
-        title: "Tâche supprimée",
-        message: "La tâche a été supprimée avec succès",
+        titleKey: "notifs.success.titles.todo_deletion",
+        messageKey: "notifs.success.messages.todo_deletion",
         color: "green",
       });
     },
     onError: () => {
       showNotification({
-        title: "Erreur",
-        message: "Impossible de supprimer la tâche",
+        titleKey: "notifs.errors.titles.todo_deletion",
+        messageKey: "notifs.errors.messages.todo_deletion",
         color: "red",
       });
     },

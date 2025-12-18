@@ -54,6 +54,38 @@
     "confirm_delete_item": "Are you sure you want to delete this item?",
     "manage_your_account": "Manage your account settings and preferences"
   },
+  "notifs": {
+    "errors": {
+      "messages": {
+        "connexion": "Unable to log in",
+        "todo_creation": "Unable to create the task",
+        "todo_deletion": "Unable to delete the task",
+        "todo_edition": "Unable to edit the task"
+      },
+      "titles": {
+        "connexion": "Login problem",
+        "todo_creation": "Task not created",
+        "todo_deletion": "Task not deleted",
+        "todo_edition": "Task not edited"
+      }
+    },
+    "success": {
+      "messages": {
+        "connexion": "Welcome",
+        "deconnexion": "See you soon!",
+        "todo_creation": "The task has been created successfully",
+        "todo_deletion": "The task has been deleted successfully",
+        "todo_edition": "The task has been edited successfully"
+      },
+      "titles": {
+        "connexion": "Login successful",
+        "deconnexion": "Logout successful",
+        "todo_creation": "Task created",
+        "todo_deletion": "Task deleted",
+        "todo_edition": "Task edited"
+      }
+    }
+  },
   "placeholders": {
     "search_tasks": "Search tasks"
   },

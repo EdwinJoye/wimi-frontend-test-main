@@ -47,12 +47,44 @@
     "title": "タイトル",
     "todo_lists": "タスクリスト",
     "todos": "タスク",
-    "your_email": "例: yanagisawa@exemple.jp",
+    "your_email": "メールアドレス (例: yanagisawa@example.com)",
     "your_password": "パスワード"
   },
   "messages": {
     "confirm_delete_item": "この項目を削除してもよろしいですか？",
     "manage_your_account": "アカウントの設定と環境設定を管理します"
+  },
+  "notifs": {
+    "errors": {
+      "messages": {
+        "connexion": "ログインに失敗しました",
+        "todo_creation": "タスクが正常に作成されました",
+        "todo_deletion": "タスクが正常に削除されました",
+        "todo_edition": "タスクが正常に編集されました"
+      },
+      "titles": {
+        "connexion": "ログイン成功",
+        "todo_creation": "タスク作成完了",
+        "todo_deletion": "タスク削除完了",
+        "todo_edition": "タスク編集完了"
+      }
+    },
+    "success": {
+      "messages": {
+        "connexion": "ログインできませんでした",
+        "deconnexion": "またのご利用をお待ちしております！",
+        "todo_creation": "タスクを作成できませんでした",
+        "todo_deletion": "タスクを削除できませんでした",
+        "todo_edition": "タスクを編集できませんでした"
+      },
+      "titles": {
+        "connexion": "ログインエラー",
+        "deconnexion": "ログアウト成功",
+        "todo_creation": "タスク未作成",
+        "todo_deletion": "タスク未削除",
+        "todo_edition": "タスク未編集"
+      }
+    }
   },
   "placeholders": {
     "search_tasks": "タスクを検索"

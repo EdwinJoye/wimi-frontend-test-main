@@ -330,14 +330,12 @@
       "createdAt": "2024-01-20T07:41:00.000Z"
     },
     {
-      "id": 25,
-      "title": "Configure notification service",
+      "title": "Configure notification serviceddd",
       "description": "Bug fix for issue reported by QA team",
-      "completed": true,
-      "todoListId": 1,
       "priority": "low",
       "dueDate": "2024-03-13",
-      "createdAt": "2024-01-19T08:48:00.000Z"
+      "todoListId": 1,
+      "id": 25
     },
     {
       "id": 26,
@@ -368,16 +366,6 @@
       "priority": "low",
       "dueDate": "2024-03-13",
       "createdAt": "2024-01-20T11:09:00.000Z"
-    },
-    {
-      "id": 29,
-      "title": "Analyze metrics for logging system",
-      "description": "Documentation update for better onboarding",
-      "completed": false,
-      "todoListId": 1,
-      "priority": "high",
-      "dueDate": "2024-02-09",
-      "createdAt": "2024-01-20T12:16:00.000Z"
     },
     {
       "id": 31,
@@ -540,16 +528,6 @@
       "createdAt": "2024-01-25T05:15:00.000Z"
     },
     {
-      "id": 47,
-      "title": "Deploy profile management",
-      "description": "This task requires careful attention to detail and coordination with the team",
-      "completed": true,
-      "todoListId": 1,
-      "priority": "medium",
-      "dueDate": "2024-03-05",
-      "createdAt": "2024-01-25T06:22:00.000Z"
-    },
-    {
       "id": 48,
       "title": "Create prototype of error handling",
       "description": "Bug fix for issue reported by QA team",
@@ -573,7 +551,7 @@
       "id": 50,
       "title": "Fix bug in API endpoints",
       "description": "Technical debt that should be addressed when time permits",
-      "completed": false,
+      "completed": true,
       "todoListId": 1,
       "priority": "low",
       "dueDate": "2024-03-16",
@@ -1588,16 +1566,6 @@
       "priority": "low",
       "dueDate": "2024-02-22",
       "createdAt": "2024-01-15T09:07:00.000Z"
-    },
-    {
-      "id": 153,
-      "title": "Design mockup for payment gateway",
-      "description": "Security enhancement to protect user data",
-      "completed": false,
-      "todoListId": 4,
-      "priority": "high",
-      "dueDate": "2024-02-01",
-      "createdAt": "2024-01-15T10:14:00.000Z"
     },
     {
       "id": 154,
