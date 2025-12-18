@@ -30,13 +30,14 @@
     "create_at": "Créé le",
     "description": "Description",
     "due_date": "Date échéance",
+    "email": "Emai",
     "general": "Général",
     "home": "Accueil",
     "languages": "Langues",
     "limited_date": "Date limite",
     "login": "Se connecter",
     "no_todo": "Aucune tâche",
-    "off_the_list": "de la liste",
+    "password": "Mot de passe",
     "pending": "En attente",
     "priority": "Priorité",
     "profile": "Profile",
@@ -135,7 +136,7 @@
     "my_todo_lists": "Mes listes de tâches",
     "parameters": "Paramètres",
     "task_list": "Liste des tâches",
-    "tasks_list": "Liste des tâches",
+    "tasks_list": "Liste des tâches de",
     "welcome_to_wimi": "Bienvenue chez Wimi"
   }
 }

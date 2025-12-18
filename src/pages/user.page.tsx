@@ -22,14 +22,20 @@ import {
   IoShield,
   IoTrash,
 } from "react-icons/io5";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate, useParams } from "react-router-dom";
 import CenteredLoader from "~/components/loaders/centered-loader";
 import { useUserStore } from "~/features/user/user.store";
 import PageLayout from "~/layouts/page.layout";
 
 const UserPage = () => {
   const { t } = useTranslation();
+  const { userId } = useParams();
+  const navigate = useNavigate();
   const currentUser = useUserStore((state) => state.currentUser);
+
+  const handleNavigate = () => {
+    navigate(`/user/${userId}/settings?tab=account`);
+  };
 
   return (
     <PageLayout>
@@ -61,7 +67,7 @@ const UserPage = () => {
                           {t("actions.edit_profile")}
                         </Menu.Item>
                         <Menu.Item
-                          disabled
+                          onClick={handleNavigate}
                           leftSection={<IoSettings size={16} />}
                         >
                           {t("labels.settings")}

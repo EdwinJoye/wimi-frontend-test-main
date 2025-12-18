@@ -11,7 +11,7 @@ const IconSegmentedButton = ({
   label,
 }: IconSegmentedButtonProps) => {
   return (
-    <Group justify="center" gap="xs">
+    <Group justify="center" gap="xs" py={1}>
       <Icon size={20} />
       <Text>{label}</Text>
     </Group>

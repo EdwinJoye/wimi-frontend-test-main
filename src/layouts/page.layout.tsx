@@ -7,7 +7,7 @@ interface PageLayoutProps extends ContainerProps {
 
 export default function PageLayout({ children, ...props }: PageLayoutProps) {
   return (
-    <Container size="xl" py="sm" {...props} className="w-full">
+    <Container size="xl" py="sm" px={0} {...props} className="w-full">
       <GoBackButton />
       {children}
     </Container>

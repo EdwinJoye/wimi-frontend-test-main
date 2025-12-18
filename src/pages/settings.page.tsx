@@ -2,6 +2,7 @@ import { Box, SegmentedControl, Tabs, Text, Title } from "@mantine/core";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useSearchParams } from "react-router-dom";
 import { HiOutlinePaintBrush, HiOutlineUser } from "react-icons/hi2";
 import { IoCogOutline, IoLanguageOutline } from "react-icons/io5";
 import IconSegmentedButton from "~/components/buttons/icon-segmented.button";
@@ -13,7 +14,11 @@ import PageLayout from "~/layouts/page.layout";
 
 const SettingsPage = () => {
   const { t } = useTranslation();
-  const [activeTab, setActiveTab] = useState<string | null>("general");
+  const [searchParams] = useSearchParams();
+  const tabFromUrl = searchParams.get("tab");
+  const [activeTab, setActiveTab] = useState<string | null>(
+    tabFromUrl || "general"
+  );
 
   return (
     <PageLayout>

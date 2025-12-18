@@ -77,12 +77,12 @@ const TodosListPage = () => {
   return (
     <PageLayout>
       <Flex justify="space-between" align="center" mb="md">
-        <Group align="end">
+        <Group align="end" gap={10}>
           <Title order={1} size="h2">
-            {t("titles.tasks_list")} {t("labels.off_the_list")}
+            {t("titles.tasks_list")}
           </Title>
           <Text fw={500}>{currentList?.title}</Text>
-          <Text size="sm" c="blue">
+          <Text pb={4} size="sm" c="blue">
             ({todos.length} {t("labels.todos")}
             {todos.length > 1 ? "s" : ""})
           </Text>

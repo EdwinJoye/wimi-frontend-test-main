@@ -36,6 +36,7 @@ const NavbarMenu = ({ closeNavbar }: NavbarMenuProps) => {
             alt="Wimi"
             h={30}
             fit="contain"
+            className="cursor-pointer"
           />
           <ActionIcon
             m={4}

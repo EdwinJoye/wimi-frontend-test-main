@@ -41,13 +41,13 @@ const LoginForm = () => {
     <Paper withBorder shadow="md" p={30} mt={30} radius="md">
       <form onSubmit={handleSubmit(onSubmit)}>
         <TextInput
-          label="Email"
+          label={t("labels.email")}
           placeholder="votre@email.com"
           {...register("email")}
           error={errors.email?.message}
         />
         <PasswordInput
-          label="Mot de passe"
+          label={t("labels.password")}
           placeholder="Votre mot de passe"
           mt="md"
           {...register("password")}
