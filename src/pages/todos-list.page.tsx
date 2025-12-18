@@ -182,7 +182,7 @@ const TodosListPage = () => {
             error={error}
           />
         ) : (
-          <ScrollArea h="calc(100vh - 240px)">
+          <ScrollArea h="calc(100vh - 220px)">
             <Grid gutter="md">
               {filteredAndSortedTodos.map((todo, index) => (
                 <Grid.Col key={todo.id} span={{ base: 12, md: 6, lg: 4 }}>
