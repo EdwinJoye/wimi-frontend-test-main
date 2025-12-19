@@ -9,6 +9,7 @@ import {
   Stack,
   Text,
   Title,
+  Tooltip,
 } from "@mantine/core";
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -22,6 +23,7 @@ import {
   IoShield,
   IoTrash,
 } from "react-icons/io5";
+import { LuListPlus } from "react-icons/lu";
 import { Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
 import TodoListAccordionCard from "~/components/cards/todoList-accordion.card";
 import CenteredLoader from "~/components/loaders/centered-loader";
@@ -164,9 +166,22 @@ const UserPage = () => {
               withBorder
               style={{ flex: 1, height: "100%", overflow: "auto" }}
             >
-              <Title order={3} mb="md">
-                {t("titles.activity")}
-              </Title>
+              <Group justify="space-between" align="top">
+                <Title order={3} mb="md">
+                  {t("titles.activity")}
+                </Title>
+                <Tooltip withArrow label={t("actions.add_new_list")}>
+                  <ActionIcon
+                    disabled
+                    variant="light"
+                    color="blue"
+                    aria-label="Voir"
+                  >
+                    <LuListPlus size={20} />
+                  </ActionIcon>
+                </Tooltip>
+              </Group>
+
               {isOnUserPage ? (
                 <Stack gap="sm">
                   {todoLists?.map((todoList, index) => (

@@ -1,5 +1,6 @@
 {
   "actions": {
+    "add_new_list": "新しいリストを追加",
     "cancel": "キャンセル",
     "change": "変更",
     "confirm": "確認",
