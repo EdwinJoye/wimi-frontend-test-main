@@ -115,8 +115,9 @@ export const useToggleTodoCompleted = () => {
       todoId: number;
       completed: boolean;
     }) => toggleTodoCompletedService(todoId, completed),
-    onSuccess: () => {
+    onSuccess: (_, { todoId }) => {
       queryClient.invalidateQueries({ queryKey: ["todos"] });
+      queryClient.invalidateQueries({ queryKey: ["todo", todoId] });
     },
   });
 };

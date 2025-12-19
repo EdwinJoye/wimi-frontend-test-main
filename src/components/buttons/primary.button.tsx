@@ -12,6 +12,8 @@ interface PrimaryButtonProps {
   color?: string;
   leftIcon?: ElementType;
   rightIcon?: ElementType;
+  width?: string;
+  className?: string;
 }
 
 const PrimaryButton = ({
@@ -24,6 +26,8 @@ const PrimaryButton = ({
   color,
   leftIcon: LeftIcon,
   rightIcon: RightIcon,
+  width,
+  className,
 }: PrimaryButtonProps) => {
   const { t } = useTranslation();
   return (
@@ -33,12 +37,13 @@ const PrimaryButton = ({
       variant={variant}
       color={color}
       type={type}
+      w={width}
       onClick={onClick}
       loading={loading}
       disabled={disabled}
       leftSection={LeftIcon && <LeftIcon size={18} />}
       rightSection={RightIcon && <RightIcon size={18} />}
-      className="transition-all duration-200"
+      className={`transition-all duration-200 ${className || ""}`}
     >
       {t(label)}
     </Button>

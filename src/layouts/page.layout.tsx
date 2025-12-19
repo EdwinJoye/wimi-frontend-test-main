@@ -14,7 +14,7 @@ export default function PageLayout({ children, hideGoBack }: PageLayoutProps) {
   const shouldHideGoBack = hideGoBack || isHomePage;
 
   return (
-    <Container size="xl" py="sm" px={0} className="w-full">
+    <Container size="xl" py="sm" px={0} className="w-full h-full">
       {!shouldHideGoBack && <GoBackButton />}
       {children}
     </Container>

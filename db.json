@@ -123,7 +123,7 @@
       "id": 3,
       "title": "Deploy form components",
       "description": "High priority item that needs to be completed ASAP",
-      "completed": false,
+      "completed": true,
       "todoListId": 1,
       "priority": "high",
       "dueDate": "2024-03-11",

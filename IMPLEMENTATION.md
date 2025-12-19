@@ -91,13 +91,13 @@ J'ai effectué quelques tests unitaires avec Vitest pour les compsants de naviga
 
 ## ⏱️ Time Spent
 
-**Total time:** 11h47 exactement
+**Total time:** 12h37 exactement
 
 **Breakdown:**
 
 - Setup & configuration: 2 hours
 - Core features: 5 hours
-- Styling: 2 hours
+- Styling: environ 3 hours
 - Testing: 1 hour
 - Refactoring & polish: 2 hour
 
