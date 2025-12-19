@@ -102,14 +102,15 @@ const TodoListAccordionCard = ({
 
               <Group gap="xs">
                 <Badge size="sm" variant="light" color="blue">
-                  {todos.length} {todos.length === 1 ? "tâche" : "tâches"}
+                  {todos.length}
+                  {todos.length === 1 ? t("label.todo") : t("labels.todos")}
                 </Badge>
                 <Badge
                   size="sm"
                   variant="light"
                   color={completionRate === 100 ? "green" : "gray"}
                 >
-                  {Math.round(completionRate)}% complété
+                  {Math.round(completionRate)}% {t("labels.completed")}
                 </Badge>
               </Group>
             </Box>
