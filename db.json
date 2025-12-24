@@ -213,7 +213,7 @@
       "id": 13,
       "title": "Deploy user dashboard",
       "description": "High priority item that needs to be completed ASAP",
-      "completed": false,
+      "completed": true,
       "todoListId": 1,
       "priority": "low",
       "dueDate": "2024-03-27",
@@ -238,16 +238,6 @@
       "priority": "high",
       "dueDate": "2024-02-09",
       "createdAt": "2024-01-17T22:38:00.000Z"
-    },
-    {
-      "id": 16,
-      "title": "Optimize performance of database schema",
-      "description": "New feature requested by multiple clients",
-      "completed": true,
-      "todoListId": 1,
-      "priority": "high",
-      "dueDate": "2024-03-26",
-      "createdAt": "2024-01-18T23:45:00.000Z"
     },
     {
       "id": 17,
@@ -418,16 +408,6 @@
       "createdAt": "2024-01-21T18:58:00.000Z"
     },
     {
-      "id": 36,
-      "title": "Fix bug in user dashboard",
-      "description": "User-facing feature that will improve the overall experience",
-      "completed": true,
-      "todoListId": 1,
-      "priority": "high",
-      "dueDate": "2024-03-24",
-      "createdAt": "2024-01-22T19:05:00.000Z"
-    },
-    {
       "id": 37,
       "title": "Optimize performance of reporting tools",
       "description": "User-facing feature that will improve the overall experience",
@@ -466,26 +446,6 @@
       "priority": "medium",
       "dueDate": "2024-03-14",
       "createdAt": "2024-01-22T23:33:00.000Z"
-    },
-    {
-      "id": 41,
-      "title": "Configure database schema",
-      "description": "Backend optimization to improve system performance",
-      "completed": false,
-      "todoListId": 1,
-      "priority": "high",
-      "dueDate": "2024-01-31",
-      "createdAt": "2024-01-24T00:40:00.000Z"
-    },
-    {
-      "id": 42,
-      "title": "Create prototype of user permissions",
-      "description": "Documentation update for better onboarding",
-      "completed": false,
-      "todoListId": 1,
-      "priority": "low",
-      "dueDate": "2024-01-30",
-      "createdAt": "2024-01-24T01:47:00.000Z"
     },
     {
       "id": 43,
@@ -536,16 +496,6 @@
       "priority": "high",
       "dueDate": "2024-02-02",
       "createdAt": "2024-01-25T07:29:00.000Z"
-    },
-    {
-      "id": 49,
-      "title": "Refactor search functionality",
-      "description": "Documentation update for better onboarding",
-      "completed": true,
-      "todoListId": 1,
-      "priority": "medium",
-      "dueDate": "2024-02-06",
-      "createdAt": "2024-01-24T08:36:00.000Z"
     },
     {
       "id": 50,
@@ -5016,6 +4966,16 @@
       "priority": "low",
       "dueDate": "2024-03-15",
       "createdAt": "2024-01-24T09:43:00.000Z"
+    },
+    {
+      "title": "Nouvelle Tâche",
+      "description": "Lorem Ipsum",
+      "priority": "medium",
+      "dueDate": "",
+      "todoListId": 1,
+      "completed": true,
+      "createdAt": "2025-12-19T10:48:02.825Z",
+      "id": 501
     }
   ]
 }

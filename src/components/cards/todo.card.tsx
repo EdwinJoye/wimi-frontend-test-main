@@ -126,7 +126,7 @@ const TodoCard = ({ todo }: TodoCardProps) => {
                   leftSection={<IoPencil size={16} />}
                   onClick={handleEdit}
                 >
-                  {t("actions.view_details")}
+                  {t("actions.edit")}
                 </Menu.Item>
                 <Menu.Item
                   color="red"
